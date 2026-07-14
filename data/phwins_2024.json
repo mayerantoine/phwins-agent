@@ -1,0 +1,2320 @@
+{
+  "survey_year": 2024,
+  "geography": "national",
+  "source_file": "DownloadAll__2024_202607032025.xlsx",
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic_name": "Demographics",
+      "subtopics": [
+        {
+          "subtopic_id": "1.sex",
+          "measure_name": "Sex",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Female",
+              "filters": {},
+              "value_pct": 80.3139,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 80.15,
+              "uci": 80.47
+            },
+            {
+              "subpopulation": "Male",
+              "filters": {},
+              "value_pct": 19.6861,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 19.53,
+              "uci": 19.85
+            }
+          ]
+        },
+        {
+          "subtopic_id": "1.race_ethnicity",
+          "measure_name": "Race & Ethnicity",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "American Indian or Alaska Native",
+              "filters": {},
+              "value_pct": 0.499701,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 0.47,
+              "uci": 0.53
+            },
+            {
+              "subpopulation": "Asian",
+              "filters": {},
+              "value_pct": 6.38467,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 6.29,
+              "uci": 6.48
+            },
+            {
+              "subpopulation": "Black or African American",
+              "filters": {},
+              "value_pct": 14.4392,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 14.3,
+              "uci": 14.58
+            },
+            {
+              "subpopulation": "Hispanic or Latino",
+              "filters": {},
+              "value_pct": 12.8649,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 12.73,
+              "uci": 13.0
+            },
+            {
+              "subpopulation": "Middle Eastern or North African",
+              "filters": {},
+              "value_pct": 0.480546,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 0.45,
+              "uci": 0.51
+            },
+            {
+              "subpopulation": "Native Hawaiian or other Pacific Islander",
+              "filters": {},
+              "value_pct": 0.369329,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 0.35,
+              "uci": 0.39
+            },
+            {
+              "subpopulation": "White",
+              "filters": {},
+              "value_pct": 61.6138,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 61.42,
+              "uci": 61.81
+            },
+            {
+              "subpopulation": "Multiracial and/or Multiethnic",
+              "filters": {},
+              "value_pct": 3.34787,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 3.28,
+              "uci": 3.42
+            }
+          ]
+        },
+        {
+          "subtopic_id": "1.race_ethnicity",
+          "measure_name": "Race & Ethnicity",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "White",
+              "filters": {},
+              "value_pct": 61.6138,
+              "n": null,
+              "suppressed": false,
+              "combined_view": true,
+              "lci": 61.42,
+              "uci": 61.81
+            },
+            {
+              "subpopulation": "BIPOC",
+              "filters": {},
+              "value_pct": 38.3862,
+              "n": null,
+              "suppressed": false,
+              "combined_view": true,
+              "lci": 38.19,
+              "uci": 38.58
+            }
+          ]
+        },
+        {
+          "subtopic_id": "1.age",
+          "measure_name": "Age",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "35 and under",
+              "filters": {},
+              "value_pct": 25.3647,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 25.19,
+              "uci": 25.54
+            },
+            {
+              "subpopulation": "36-54 years of age",
+              "filters": {},
+              "value_pct": 48.3555,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 48.15,
+              "uci": 48.56
+            },
+            {
+              "subpopulation": "55 and above",
+              "filters": {},
+              "value_pct": 26.2798,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 26.1,
+              "uci": 26.46
+            }
+          ]
+        },
+        {
+          "subtopic_id": "1.educational_attainment",
+          "measure_name": "Educational Attainment",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "No college degree",
+              "filters": {},
+              "value_pct": 14.8712,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 14.73,
+              "uci": 15.02
+            },
+            {
+              "subpopulation": "Associates",
+              "filters": {},
+              "value_pct": 12.7273,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 12.59,
+              "uci": 12.86
+            },
+            {
+              "subpopulation": "Bachelors",
+              "filters": {},
+              "value_pct": 37.766,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 37.57,
+              "uci": 37.96
+            },
+            {
+              "subpopulation": "Masters",
+              "filters": {},
+              "value_pct": 29.6195,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 29.44,
+              "uci": 29.8
+            },
+            {
+              "subpopulation": "Doctoral",
+              "filters": {},
+              "value_pct": 5.01596,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.93,
+              "uci": 5.1
+            }
+          ]
+        },
+        {
+          "subtopic_id": "1.public_health_training",
+          "measure_name": "Public Health Training",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "No Public Health Degree",
+              "filters": {},
+              "value_pct": 78.1112,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 77.94,
+              "uci": 78.28
+            },
+            {
+              "subpopulation": "Public Health Degree",
+              "filters": {},
+              "value_pct": 21.8888,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 21.72,
+              "uci": 22.06
+            }
+          ]
+        },
+        {
+          "subtopic_id": "1.student_loan_burden",
+          "measure_name": "Student Loan Burden",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "No student loans",
+              "filters": {},
+              "value_pct": 60.0947,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 59.9,
+              "uci": 60.29
+            },
+            {
+              "subpopulation": "$1-$19,999",
+              "filters": {},
+              "value_pct": 12.7755,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 12.64,
+              "uci": 12.91
+            },
+            {
+              "subpopulation": "$20,000-$49,999",
+              "filters": {},
+              "value_pct": 12.0686,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 11.94,
+              "uci": 12.2
+            },
+            {
+              "subpopulation": "$50,000-$99,999",
+              "filters": {},
+              "value_pct": 9.80422,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 9.68,
+              "uci": 9.92
+            },
+            {
+              "subpopulation": "$100,000 or more",
+              "filters": {},
+              "value_pct": 5.25703,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 5.17,
+              "uci": 5.35
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Workforce Characteristics",
+      "subtopics": [
+        {
+          "subtopic_id": "2.setting",
+          "measure_name": "Setting",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "SHA-CO",
+              "filters": {},
+              "value_pct": 28.3539,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 28.17,
+              "uci": 28.54
+            },
+            {
+              "subpopulation": "Large LHD",
+              "filters": {},
+              "value_pct": 43.8884,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 43.69,
+              "uci": 44.09
+            },
+            {
+              "subpopulation": "Medium LHD",
+              "filters": {},
+              "value_pct": 18.7082,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 18.55,
+              "uci": 18.87
+            },
+            {
+              "subpopulation": "Small LHD",
+              "filters": {},
+              "value_pct": 9.04948,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 8.93,
+              "uci": 9.17
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.annualized_salary",
+          "measure_name": "Annualized Salary",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Less than $55,000",
+              "filters": {},
+              "value_pct": 27.9245,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 27.74,
+              "uci": 28.11
+            },
+            {
+              "subpopulation": "$55,000.01-$85,000",
+              "filters": {},
+              "value_pct": 41.2469,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 41.04,
+              "uci": 41.46
+            },
+            {
+              "subpopulation": "$85,000.01-$115,000",
+              "filters": {},
+              "value_pct": 21.1936,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 21.02,
+              "uci": 21.37
+            },
+            {
+              "subpopulation": "More than $115,000",
+              "filters": {},
+              "value_pct": 9.63502,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 9.51,
+              "uci": 9.76
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.full_time_part_time",
+          "measure_name": "Full-time/Part-time",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Full-time",
+              "filters": {},
+              "value_pct": 92.6413,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 92.54,
+              "uci": 92.75
+            },
+            {
+              "subpopulation": "Part-time",
+              "filters": {},
+              "value_pct": 7.35868,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 7.25,
+              "uci": 7.46
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.tenure_in_position",
+          "measure_name": "Tenure in Position",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "0-5 years",
+              "filters": {},
+              "value_pct": 69.3984,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 69.21,
+              "uci": 69.58
+            },
+            {
+              "subpopulation": "6-10 years",
+              "filters": {},
+              "value_pct": 14.1615,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 14.02,
+              "uci": 14.3
+            },
+            {
+              "subpopulation": "11-15 years",
+              "filters": {},
+              "value_pct": 5.90444,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 5.81,
+              "uci": 6.0
+            },
+            {
+              "subpopulation": "16-20 years",
+              "filters": {},
+              "value_pct": 4.6528,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.57,
+              "uci": 4.74
+            },
+            {
+              "subpopulation": "21 or above",
+              "filters": {},
+              "value_pct": 5.8829,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 5.79,
+              "uci": 5.98
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.tenure_in_agency",
+          "measure_name": "Tenure in Agency",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "0-5 years",
+              "filters": {},
+              "value_pct": 54.3034,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 54.1,
+              "uci": 54.51
+            },
+            {
+              "subpopulation": "6-10 years",
+              "filters": {},
+              "value_pct": 17.6318,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 17.48,
+              "uci": 17.79
+            },
+            {
+              "subpopulation": "11-15 years",
+              "filters": {},
+              "value_pct": 8.88459,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 8.77,
+              "uci": 9.0
+            },
+            {
+              "subpopulation": "16-20 years",
+              "filters": {},
+              "value_pct": 7.81823,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 7.71,
+              "uci": 7.93
+            },
+            {
+              "subpopulation": "21 or above",
+              "filters": {},
+              "value_pct": 11.362,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 11.23,
+              "uci": 11.49
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.tenure_in_public_health_practice",
+          "measure_name": "Tenure in Public Health Practice",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "0-5 years",
+              "filters": {},
+              "value_pct": 40.5297,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 40.33,
+              "uci": 40.73
+            },
+            {
+              "subpopulation": "6-10 years",
+              "filters": {},
+              "value_pct": 19.4102,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 19.25,
+              "uci": 19.57
+            },
+            {
+              "subpopulation": "11-15 years",
+              "filters": {},
+              "value_pct": 11.7732,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 11.64,
+              "uci": 11.91
+            },
+            {
+              "subpopulation": "16-20 years",
+              "filters": {},
+              "value_pct": 10.2937,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 10.17,
+              "uci": 10.42
+            },
+            {
+              "subpopulation": "21 or above",
+              "filters": {},
+              "value_pct": 17.9931,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 17.84,
+              "uci": 18.15
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.supervisory_status",
+          "measure_name": "Supervisory Status",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Non-supervisors",
+              "filters": {},
+              "value_pct": 71.7826,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 71.6,
+              "uci": 71.96
+            },
+            {
+              "subpopulation": "Supervisors & Managers",
+              "filters": {},
+              "value_pct": 25.0115,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 24.84,
+              "uci": 25.19
+            },
+            {
+              "subpopulation": "Executives",
+              "filters": {},
+              "value_pct": 3.20587,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 3.14,
+              "uci": 3.28
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.supervisory_status",
+          "measure_name": "Supervisory Status",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Non-supervisors",
+              "filters": {},
+              "value_pct": 71.7826,
+              "n": null,
+              "suppressed": false,
+              "combined_view": true,
+              "lci": 71.6,
+              "uci": 71.96
+            },
+            {
+              "subpopulation": "Supervisors, Managers, & Executives",
+              "filters": {},
+              "value_pct": 28.2174,
+              "n": null,
+              "suppressed": false,
+              "combined_view": true,
+              "lci": 28.04,
+              "uci": 28.4
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.employee_type",
+          "measure_name": "Employee Type",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Permanent staff",
+              "filters": {},
+              "value_pct": 91.6942,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 91.58,
+              "uci": 91.8
+            },
+            {
+              "subpopulation": "Contractor",
+              "filters": {},
+              "value_pct": 4.1084,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.03,
+              "uci": 4.19
+            },
+            {
+              "subpopulation": "Temporary staff",
+              "filters": {},
+              "value_pct": 3.40096,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 3.33,
+              "uci": 3.47
+            },
+            {
+              "subpopulation": "Federal detailee",
+              "filters": {},
+              "value_pct": 0.532611,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 0.5,
+              "uci": 0.56
+            },
+            {
+              "subpopulation": "Intern",
+              "filters": {},
+              "value_pct": 0.263803,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 0.24,
+              "uci": 0.29
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.employee_type",
+          "measure_name": "Employee Type",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Permanent staff",
+              "filters": {},
+              "value_pct": 91.6942,
+              "n": null,
+              "suppressed": false,
+              "combined_view": true,
+              "lci": 91.58,
+              "uci": 91.8
+            },
+            {
+              "subpopulation": "Temporary staff (includes contractors)",
+              "filters": {},
+              "value_pct": 8.30578,
+              "n": null,
+              "suppressed": false,
+              "combined_view": true,
+              "lci": 8.19,
+              "uci": 8.42
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.job_type",
+          "measure_name": "Job Type",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Public Health Programs, Research, Assessment, & Surveillance",
+              "filters": {},
+              "value_pct": 41.2507,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 41.05,
+              "uci": 41.45
+            },
+            {
+              "subpopulation": "Clinical, Behavioral, & Social Services",
+              "filters": {},
+              "value_pct": 29.0687,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 28.89,
+              "uci": 29.25
+            },
+            {
+              "subpopulation": "Administrative Staff & Leadership",
+              "filters": {},
+              "value_pct": 28.285,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 28.1,
+              "uci": 28.47
+            },
+            {
+              "subpopulation": "Other",
+              "filters": {},
+              "value_pct": 1.39554,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 1.35,
+              "uci": 1.44
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.program_area",
+          "measure_name": "Program Area",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Organizational Competencies",
+              "filters": {},
+              "value_pct": 19.7711,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 19.61,
+              "uci": 19.93
+            },
+            {
+              "subpopulation": "Assessment & Surveillance",
+              "filters": {},
+              "value_pct": 15.5362,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 15.39,
+              "uci": 15.68
+            },
+            {
+              "subpopulation": "Maternal, Child, & Family Health",
+              "filters": {},
+              "value_pct": 15.1424,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 15.0,
+              "uci": 15.29
+            },
+            {
+              "subpopulation": "Clinical Health Care & Social Services",
+              "filters": {},
+              "value_pct": 13.6515,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 13.51,
+              "uci": 13.79
+            },
+            {
+              "subpopulation": "Communicable Disease Control",
+              "filters": {},
+              "value_pct": 9.09568,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 8.98,
+              "uci": 9.21
+            },
+            {
+              "subpopulation": "Environmental Public Health",
+              "filters": {},
+              "value_pct": 8.76104,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 8.65,
+              "uci": 8.88
+            },
+            {
+              "subpopulation": "Other",
+              "filters": {},
+              "value_pct": 5.54451,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 5.45,
+              "uci": 5.64
+            },
+            {
+              "subpopulation": "Communications & Policy",
+              "filters": {},
+              "value_pct": 4.94612,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.86,
+              "uci": 5.03
+            },
+            {
+              "subpopulation": "Chronic Disease & Injury Prevention",
+              "filters": {},
+              "value_pct": 4.80429,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.72,
+              "uci": 4.89
+            },
+            {
+              "subpopulation": "Emergency Preparedness & Response",
+              "filters": {},
+              "value_pct": 2.74711,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 2.68,
+              "uci": 2.81
+            }
+          ]
+        },
+        {
+          "subtopic_id": "2.union_position",
+          "measure_name": "Union Position",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Non-union",
+              "filters": {},
+              "value_pct": 66.7223,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 66.53,
+              "uci": 66.91
+            },
+            {
+              "subpopulation": "Union",
+              "filters": {},
+              "value_pct": 33.2777,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 33.09,
+              "uci": 33.47
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Engagement & Satisfaction",
+      "subtopics": [
+        {
+          "subtopic_id": "3.job_satisfaction",
+          "measure_name": "Job Satisfaction",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Job Satisfaction",
+              "filters": {},
+              "value_pct": 86.0502,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 85.91,
+              "uci": 86.19
+            },
+            {
+              "subpopulation": "Benefits Satisfaction",
+              "filters": {},
+              "value_pct": 82.4666,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 82.31,
+              "uci": 82.63
+            },
+            {
+              "subpopulation": "Pay Satisfaction",
+              "filters": {},
+              "value_pct": 56.0708,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 55.86,
+              "uci": 56.28
+            }
+          ]
+        },
+        {
+          "subtopic_id": "3.organizational_satisfaction",
+          "measure_name": "Organizational Satisfaction",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Work Unit",
+              "filters": {},
+              "value_pct": 86.7287,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 86.59,
+              "uci": 86.87
+            },
+            {
+              "subpopulation": "Supervisor Satisfaction",
+              "filters": {},
+              "value_pct": 86.3513,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 86.21,
+              "uci": 86.5
+            },
+            {
+              "subpopulation": "Organizational Satisfaction",
+              "filters": {},
+              "value_pct": 77.1621,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 76.99,
+              "uci": 77.34
+            }
+          ]
+        },
+        {
+          "subtopic_id": "3.thriving_at_work",
+          "measure_name": "Thriving at Work",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "I can easily manage the demands of my job",
+              "filters": {},
+              "value_pct": 86.1886,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 86.04,
+              "uci": 86.34
+            },
+            {
+              "subpopulation": "I am treated fairly at work",
+              "filters": {},
+              "value_pct": 84.4432,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 84.29,
+              "uci": 84.6
+            },
+            {
+              "subpopulation": "I feel psychologically safe at work",
+              "filters": {},
+              "value_pct": 84.1378,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 83.98,
+              "uci": 84.29
+            },
+            {
+              "subpopulation": "I can achieve a healthy balance between my work and life outside of work",
+              "filters": {},
+              "value_pct": 80.7989,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 80.63,
+              "uci": 80.97
+            },
+            {
+              "subpopulation": "I can voice concerns at work without getting into trouble",
+              "filters": {},
+              "value_pct": 77.5927,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 77.41,
+              "uci": 77.77
+            },
+            {
+              "subpopulation": "I love my job",
+              "filters": {},
+              "value_pct": 75.8208,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 75.64,
+              "uci": 76.0
+            },
+            {
+              "subpopulation": "I am happy with how much input I have in decisions that affect my work",
+              "filters": {},
+              "value_pct": 69.9836,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 69.79,
+              "uci": 70.18
+            },
+            {
+              "subpopulation": "I am paid fairly for the job that I do",
+              "filters": {},
+              "value_pct": 61.1366,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 60.93,
+              "uci": 61.35
+            }
+          ]
+        },
+        {
+          "subtopic_id": "3.belonging",
+          "measure_name": "Belonging",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "I feel a sense of belonging within my work unit",
+              "filters": {},
+              "value_pct": 87.229,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 87.09,
+              "uci": 87.36
+            },
+            {
+              "subpopulation": "I feel a sense of belonging at my agency",
+              "filters": {},
+              "value_pct": 80.5886,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 80.43,
+              "uci": 80.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Staying & Leaving",
+      "subtopics": [
+        {
+          "subtopic_id": "4.leaving_retiring_or_staying",
+          "measure_name": "Leaving, Retiring, or Staying",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Staying",
+              "filters": {},
+              "value_pct": 75.2721,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 75.1,
+              "uci": 75.45
+            },
+            {
+              "subpopulation": "Leaving in One Year",
+              "filters": {},
+              "value_pct": 21.1435,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 20.98,
+              "uci": 21.31
+            },
+            {
+              "subpopulation": "Retiring in One Year",
+              "filters": {},
+              "value_pct": 3.58438,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 3.51,
+              "uci": 3.66
+            }
+          ]
+        },
+        {
+          "subtopic_id": "4.plans_after_leaving",
+          "measure_name": "Plans after Leaving",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Governmental public health job",
+              "filters": {},
+              "value_pct": 31.8868,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 31.48,
+              "uci": 32.3
+            },
+            {
+              "subpopulation": "Non-governmental job (not public health)",
+              "filters": {},
+              "value_pct": 22.1294,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 21.77,
+              "uci": 22.5
+            },
+            {
+              "subpopulation": "Governmental job (not public health)",
+              "filters": {},
+              "value_pct": 20.3191,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 19.97,
+              "uci": 20.67
+            },
+            {
+              "subpopulation": "Non-governmental public health job",
+              "filters": {},
+              "value_pct": 16.654,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 16.33,
+              "uci": 16.98
+            },
+            {
+              "subpopulation": "Pursue further education",
+              "filters": {},
+              "value_pct": 5.73882,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 5.54,
+              "uci": 5.95
+            },
+            {
+              "subpopulation": "Leaving the workforce",
+              "filters": {},
+              "value_pct": 3.27186,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 3.12,
+              "uci": 3.43
+            }
+          ]
+        },
+        {
+          "subtopic_id": "4.reasons_for_leaving",
+          "measure_name": "Reasons for Leaving",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Pay",
+              "filters": {},
+              "value_pct": 50.9576,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 50.55,
+              "uci": 51.36
+            },
+            {
+              "subpopulation": "Job satisfaction",
+              "filters": {},
+              "value_pct": 40.9941,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 40.6,
+              "uci": 41.39
+            },
+            {
+              "subpopulation": "Lack of opportunities for advancement",
+              "filters": {},
+              "value_pct": 40.2956,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 39.9,
+              "uci": 40.69
+            },
+            {
+              "subpopulation": "Work overload/burnout",
+              "filters": {},
+              "value_pct": 37.1578,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 36.77,
+              "uci": 37.55
+            },
+            {
+              "subpopulation": "Organizational climate/culture",
+              "filters": {},
+              "value_pct": 37.1489,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 36.76,
+              "uci": 37.54
+            },
+            {
+              "subpopulation": "Other opportunities outside agency",
+              "filters": {},
+              "value_pct": 34.8672,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 34.48,
+              "uci": 35.25
+            },
+            {
+              "subpopulation": "Stress",
+              "filters": {},
+              "value_pct": 33.433,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 33.05,
+              "uci": 33.82
+            },
+            {
+              "subpopulation": "Lack of acknowledgement/recognition",
+              "filters": {},
+              "value_pct": 26.3457,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 25.99,
+              "uci": 26.7
+            },
+            {
+              "subpopulation": "Remote work policies",
+              "filters": {},
+              "value_pct": 25.1205,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 24.77,
+              "uci": 25.47
+            },
+            {
+              "subpopulation": "Satisfaction with your supervisor",
+              "filters": {},
+              "value_pct": 22.2568,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 21.92,
+              "uci": 22.6
+            }
+          ]
+        },
+        {
+          "subtopic_id": "4.reasons_for_staying",
+          "measure_name": "Reasons for Staying",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Benefits",
+              "filters": {},
+              "value_pct": 70.2648,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 70.05,
+              "uci": 70.48
+            },
+            {
+              "subpopulation": "Job stability",
+              "filters": {},
+              "value_pct": 57.3916,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 57.16,
+              "uci": 57.62
+            },
+            {
+              "subpopulation": "Satisfaction with your supervisor",
+              "filters": {},
+              "value_pct": 51.0368,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 50.8,
+              "uci": 51.27
+            },
+            {
+              "subpopulation": "Support",
+              "filters": {},
+              "value_pct": 50.0932,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 49.86,
+              "uci": 50.33
+            },
+            {
+              "subpopulation": "Job satisfaction",
+              "filters": {},
+              "value_pct": 48.2366,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 48.0,
+              "uci": 48.47
+            },
+            {
+              "subpopulation": "Flexible work schedule",
+              "filters": {},
+              "value_pct": 45.5824,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 45.35,
+              "uci": 45.81
+            },
+            {
+              "subpopulation": "Pride in the organization and its mission",
+              "filters": {},
+              "value_pct": 38.617,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 38.39,
+              "uci": 38.84
+            },
+            {
+              "subpopulation": "Exciting/challenging work",
+              "filters": {},
+              "value_pct": 34.2951,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 34.08,
+              "uci": 34.52
+            },
+            {
+              "subpopulation": "Remote work policies",
+              "filters": {},
+              "value_pct": 32.1879,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 31.97,
+              "uci": 32.4
+            },
+            {
+              "subpopulation": "Acknowledgement/recognition for your work",
+              "filters": {},
+              "value_pct": 27.8772,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 27.67,
+              "uci": 28.09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Workplace Well-being",
+      "subtopics": [
+        {
+          "subtopic_id": "5.mental_health",
+          "measure_name": "Mental Health",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Excellent",
+              "filters": {},
+              "value_pct": 14.3094,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 14.17,
+              "uci": 14.45
+            },
+            {
+              "subpopulation": "Very good",
+              "filters": {},
+              "value_pct": 34.4835,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 34.29,
+              "uci": 34.67
+            },
+            {
+              "subpopulation": "Good",
+              "filters": {},
+              "value_pct": 34.0613,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 33.87,
+              "uci": 34.25
+            },
+            {
+              "subpopulation": "Fair",
+              "filters": {},
+              "value_pct": 14.4645,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 14.32,
+              "uci": 14.61
+            },
+            {
+              "subpopulation": "Poor",
+              "filters": {},
+              "value_pct": 2.68135,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 2.62,
+              "uci": 2.75
+            }
+          ]
+        },
+        {
+          "subtopic_id": "5.burnout",
+          "measure_name": "Burnout",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "I have no symptoms of burnout",
+              "filters": {},
+              "value_pct": 29.0196,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 28.84,
+              "uci": 29.2
+            },
+            {
+              "subpopulation": "I have one or more symptoms of burnout that come and go away",
+              "filters": {},
+              "value_pct": 51.3679,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 51.17,
+              "uci": 51.57
+            },
+            {
+              "subpopulation": "I have one or more symptoms of burnout that won't go away",
+              "filters": {},
+              "value_pct": 15.8277,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 15.68,
+              "uci": 15.98
+            },
+            {
+              "subpopulation": "I am completely burnt out, my symptoms won't go away",
+              "filters": {},
+              "value_pct": 3.78484,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 3.71,
+              "uci": 3.86
+            }
+          ]
+        },
+        {
+          "subtopic_id": "5.fairness",
+          "measure_name": "Fairness",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "People here are treated fairly regardless of their sexual orientation",
+              "filters": {},
+              "value_pct": 94.031,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 93.93,
+              "uci": 94.13
+            },
+            {
+              "subpopulation": "People here are treated fairly regardless of their gender",
+              "filters": {},
+              "value_pct": 90.1993,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 90.08,
+              "uci": 90.32
+            },
+            {
+              "subpopulation": "People here are treated fairly regardless of their race",
+              "filters": {},
+              "value_pct": 87.5901,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 87.46,
+              "uci": 87.72
+            },
+            {
+              "subpopulation": "People here are treated fairly regardless of their age",
+              "filters": {},
+              "value_pct": 87.181,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 87.05,
+              "uci": 87.32
+            }
+          ]
+        },
+        {
+          "subtopic_id": "5.policies_practices",
+          "measure_name": "Policies & Practices",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "I feel comfortable using my paid time off",
+              "filters": {},
+              "value_pct": 86.5268,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 86.39,
+              "uci": 86.66
+            },
+            {
+              "subpopulation": "My agency implements policies and practices that support my mental wellbeing",
+              "filters": {},
+              "value_pct": 73.7184,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 73.54,
+              "uci": 73.9
+            }
+          ]
+        },
+        {
+          "subtopic_id": "5.workload",
+          "measure_name": "Workload",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "I am able to complete my work within my normal working hours",
+              "filters": {},
+              "value_pct": 79.0004,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 78.84,
+              "uci": 79.16
+            },
+            {
+              "subpopulation": "I have to take on responsibilities outside of my job description",
+              "filters": {},
+              "value_pct": 56.7995,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 56.6,
+              "uci": 57.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "Training",
+      "subtopics": [
+        {
+          "subtopic_id": "6.training_needs",
+          "measure_name": "Training Needs",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Budget and Financial Management",
+              "filters": {},
+              "value_pct": 50.5381,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 50.28,
+              "uci": 50.8
+            },
+            {
+              "subpopulation": "Policy Engagement",
+              "filters": {},
+              "value_pct": 40.2363,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 39.98,
+              "uci": 40.49
+            },
+            {
+              "subpopulation": "Systems and Strategic Thinking",
+              "filters": {},
+              "value_pct": 34.1865,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 33.98,
+              "uci": 34.4
+            },
+            {
+              "subpopulation": "Change Management",
+              "filters": {},
+              "value_pct": 32.9152,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 32.69,
+              "uci": 33.14
+            },
+            {
+              "subpopulation": "Community Engagement",
+              "filters": {},
+              "value_pct": 31.0062,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 30.79,
+              "uci": 31.22
+            },
+            {
+              "subpopulation": "Cross-Sectoral Partnerships",
+              "filters": {},
+              "value_pct": 26.9732,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 26.77,
+              "uci": 27.18
+            },
+            {
+              "subpopulation": "Data-Based Decision-Making",
+              "filters": {},
+              "value_pct": 20.743,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 20.57,
+              "uci": 20.92
+            },
+            {
+              "subpopulation": "Programmatic Expertise",
+              "filters": {},
+              "value_pct": 12.7843,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 12.64,
+              "uci": 12.93
+            },
+            {
+              "subpopulation": "Effective Communication",
+              "filters": {},
+              "value_pct": 10.6567,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 10.53,
+              "uci": 10.79
+            }
+          ]
+        },
+        {
+          "subtopic_id": "6.strategic_strengths",
+          "measure_name": "Strategic Strengths",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Effective Communication",
+              "filters": {},
+              "value_pct": 94.8451,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 94.75,
+              "uci": 94.94
+            },
+            {
+              "subpopulation": "Programmatic Expertise",
+              "filters": {},
+              "value_pct": 91.2408,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 91.12,
+              "uci": 91.36
+            },
+            {
+              "subpopulation": "Data-Based Decision-Making",
+              "filters": {},
+              "value_pct": 90.3561,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 90.23,
+              "uci": 90.48
+            },
+            {
+              "subpopulation": "Systems and Strategic Thinking",
+              "filters": {},
+              "value_pct": 85.4248,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 85.27,
+              "uci": 85.58
+            },
+            {
+              "subpopulation": "Community Engagement",
+              "filters": {},
+              "value_pct": 82.5442,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 82.36,
+              "uci": 82.72
+            },
+            {
+              "subpopulation": "Cross-Sectoral Partnerships",
+              "filters": {},
+              "value_pct": 80.8569,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 80.67,
+              "uci": 81.04
+            },
+            {
+              "subpopulation": "Change Management",
+              "filters": {},
+              "value_pct": 74.4731,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 74.26,
+              "uci": 74.68
+            },
+            {
+              "subpopulation": "Policy Engagement",
+              "filters": {},
+              "value_pct": 67.3263,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 67.08,
+              "uci": 67.57
+            },
+            {
+              "subpopulation": "Budget and Financial Management",
+              "filters": {},
+              "value_pct": 62.1872,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 61.94,
+              "uci": 62.44
+            }
+          ]
+        },
+        {
+          "subtopic_id": "6.skill_building_interests",
+          "measure_name": "Skill-Building Interests",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Examine/determine the feasibility of a policy and its relationship to many types of public health problems",
+              "filters": {},
+              "value_pct": 10.7673,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 10.63,
+              "uci": 10.91
+            },
+            {
+              "subpopulation": "Communicate in a way that different audiences can understand",
+              "filters": {},
+              "value_pct": 10.234,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 10.1,
+              "uci": 10.37
+            },
+            {
+              "subpopulation": "Communicate in a way that persuades others to act",
+              "filters": {},
+              "value_pct": 9.60453,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 9.47,
+              "uci": 9.74
+            },
+            {
+              "subpopulation": "Identify/assess or prioritize/influence policies external to the organization that affect the health of the community",
+              "filters": {},
+              "value_pct": 9.14826,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 9.02,
+              "uci": 9.28
+            },
+            {
+              "subpopulation": "Use valid data to drive decision making",
+              "filters": {},
+              "value_pct": 6.55678,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 6.44,
+              "uci": 6.67
+            },
+            {
+              "subpopulation": "Identify/ensure the use of appropriate sources of data and information to assess the health of a community",
+              "filters": {},
+              "value_pct": 6.00727,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 5.9,
+              "uci": 6.12
+            },
+            {
+              "subpopulation": "Apply/ensure the application of evidence-based approaches to address public health issues",
+              "filters": {},
+              "value_pct": 4.8755,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.78,
+              "uci": 4.97
+            },
+            {
+              "subpopulation": "Identify/leverage funding mechanisms and procedures to develop sustainable funding models for programs/services/the agency",
+              "filters": {},
+              "value_pct": 4.66109,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.57,
+              "uci": 4.76
+            },
+            {
+              "subpopulation": "Engage community members in the design and implementation of programs to improve health in a community",
+              "filters": {},
+              "value_pct": 4.55307,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.46,
+              "uci": 4.65
+            },
+            {
+              "subpopulation": "Implement/ensure the successful implementation of an organizational strategic plan",
+              "filters": {},
+              "value_pct": 4.49992,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.41,
+              "uci": 4.6
+            }
+          ]
+        },
+        {
+          "subtopic_id": "6.support_for_training",
+          "measure_name": "Support for Training",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "My agency provides me with time to address my training needs",
+              "filters": {},
+              "value_pct": 82.7712,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 82.62,
+              "uci": 82.92
+            },
+            {
+              "subpopulation": "My agency provides me with resources to address my training needs",
+              "filters": {},
+              "value_pct": 81.1647,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 81.01,
+              "uci": 81.32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "Flexibility & Benefits",
+      "subtopics": [
+        {
+          "subtopic_id": "7.current_remote_status",
+          "measure_name": "Current Remote Status",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Currently in-person",
+              "filters": {},
+              "value_pct": 46.4683,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 46.27,
+              "uci": 46.67
+            },
+            {
+              "subpopulation": "Currently mostly in-person, some remote",
+              "filters": {},
+              "value_pct": 29.9421,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 29.76,
+              "uci": 30.13
+            },
+            {
+              "subpopulation": "Currently mostly remote, some in-person",
+              "filters": {},
+              "value_pct": 19.1968,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 19.04,
+              "uci": 19.36
+            },
+            {
+              "subpopulation": "Currently remote",
+              "filters": {},
+              "value_pct": 4.39279,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 4.31,
+              "uci": 4.48
+            }
+          ]
+        },
+        {
+          "subtopic_id": "7.preferred_remote_status",
+          "measure_name": "Preferred Remote Status",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Preferred in-person",
+              "filters": {},
+              "value_pct": 20.754,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 20.59,
+              "uci": 20.92
+            },
+            {
+              "subpopulation": "Preferred mostly in-person, some remote",
+              "filters": {},
+              "value_pct": 36.865,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 36.67,
+              "uci": 37.06
+            },
+            {
+              "subpopulation": "Preferred mostly remote, some in-person",
+              "filters": {},
+              "value_pct": 30.3709,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 30.19,
+              "uci": 30.56
+            },
+            {
+              "subpopulation": "Preferred remote",
+              "filters": {},
+              "value_pct": 12.0102,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 11.88,
+              "uci": 12.14
+            }
+          ]
+        },
+        {
+          "subtopic_id": "7.flexible_worktime",
+          "measure_name": "Flexible Worktime",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Flex-time",
+              "filters": {},
+              "value_pct": 89.2906,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 89.16,
+              "uci": 89.41
+            },
+            {
+              "subpopulation": "Ad-hoc remote work",
+              "filters": {},
+              "value_pct": 77.377,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 77.21,
+              "uci": 77.55
+            }
+          ]
+        },
+        {
+          "subtopic_id": "7.financial_benefits",
+          "measure_name": "Financial Benefits",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Professional development funds",
+              "filters": {},
+              "value_pct": 81.6802,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 81.52,
+              "uci": 81.84
+            },
+            {
+              "subpopulation": "Student loan repayment/forgiveness",
+              "filters": {},
+              "value_pct": 68.5946,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 68.41,
+              "uci": 68.78
+            }
+          ]
+        },
+        {
+          "subtopic_id": "7.parent_focused_support",
+          "measure_name": "Parent-Focused Support",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Lactation facilities",
+              "filters": {},
+              "value_pct": 60.1974,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 59.99,
+              "uci": 60.4
+            },
+            {
+              "subpopulation": "Childcare stipend",
+              "filters": {},
+              "value_pct": 47.3935,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 47.19,
+              "uci": 47.6
+            },
+            {
+              "subpopulation": "Back-up childcare options",
+              "filters": {},
+              "value_pct": 42.3334,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 42.13,
+              "uci": 42.54
+            },
+            {
+              "subpopulation": "Onsite childcare",
+              "filters": {},
+              "value_pct": 39.1367,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 38.94,
+              "uci": 39.34
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "Community Engagement",
+      "subtopics": [
+        {
+          "subtopic_id": "8.infusing_the_community_into_work",
+          "measure_name": "Infusing the Community into Work",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Leadership commitment",
+              "filters": {},
+              "value_pct": 90.1195,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 90.0,
+              "uci": 90.24
+            },
+            {
+              "subpopulation": "Infusing the community into daily work",
+              "filters": {},
+              "value_pct": 83.8872,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 83.73,
+              "uci": 84.04
+            },
+            {
+              "subpopulation": "Needs based resource allocation",
+              "filters": {},
+              "value_pct": 82.0127,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 81.85,
+              "uci": 82.17
+            },
+            {
+              "subpopulation": "Prioritizing under-resourced communities",
+              "filters": {},
+              "value_pct": 80.2017,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 80.03,
+              "uci": 80.37
+            }
+          ]
+        },
+        {
+          "subtopic_id": "8.engaging_community_members",
+          "measure_name": "Engaging Community Members",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Regularly involving community members in decision-making",
+              "filters": {},
+              "value_pct": 75.1079,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 74.92,
+              "uci": 75.29
+            },
+            {
+              "subpopulation": "Prioritizing community members' input",
+              "filters": {},
+              "value_pct": 73.8839,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 73.7,
+              "uci": 74.07
+            }
+          ]
+        },
+        {
+          "subtopic_id": "8.collaborating_with_external_organizations",
+          "measure_name": "Collaborating with External Organizations",
+          "question_text": "",
+          "estimates": [
+            {
+              "subpopulation": "Actively collaborating with community-based organizations",
+              "filters": {},
+              "value_pct": 90.6984,
+              "n": null,
+              "suppressed": false,
+              "combined_view": false,
+              "lci": 90.58,
+              "uci": 90.82
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
