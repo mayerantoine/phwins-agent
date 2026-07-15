@@ -14,9 +14,9 @@ from pathlib import Path
 import anthropic
 from dotenv import load_dotenv
 
-from .agent import build_sources, synthesize
+from .agent import build_sources, parse_answer_json, synthesize
+from .chart import build_chart
 from .data import DEFAULT_DATA_PATH, build_taxonomy, data_lookup
-from .prompts import ANSWER_SCHEMA
 
 
 MODEL = "claude-opus-4-7"
@@ -163,13 +163,15 @@ def ask_managed(
             close_session(client, session_id)
 
     text = "".join(final_text_parts).strip()
-    try:
-        parsed = json.loads(text)
-        for key in ANSWER_SCHEMA["required"]:
-            parsed.setdefault(key, "")
-    except (json.JSONDecodeError, ValueError):
-        parsed = {"direct_answer": text, "full_answer": text, "synthesis": "", "reasoning": ""}
+    parsed = parse_answer_json(text)
 
     taxonomy = build_taxonomy(data_path=data_path)
     parsed["sources"] = build_sources(tool_trace, taxonomy, data_path)
+    parsed["chart"] = build_chart(
+        parsed.pop("chart_hint", None),
+        tool_trace,
+        survey_year=taxonomy["survey_year"],
+        source_file=str(data_path),
+        data_path=data_path,
+    )
     return parsed

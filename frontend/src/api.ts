@@ -4,12 +4,37 @@ export interface Sources {
   topics: string[];
 }
 
+export interface ChartBar {
+  label: string;
+  value_pct: number;
+  lci: number | null;
+  uci: number | null;
+  is_highlight: boolean;
+  is_group: boolean;
+}
+
+export interface Chart {
+  title: string;
+  subtitle: string;
+  caption: string;
+  highlight: string | null;
+  bars: ChartBar[];
+  source: {
+    topic: string;
+    subtopic: string;
+    survey_year: string;
+    source_file: string;
+  };
+}
+
 export interface Answer {
   direct_answer: string;
   full_answer: string;
   synthesis: string;
   reasoning: string;
   sources: Sources;
+  chart?: Chart | null;
+  is_in_scope?: boolean;
 }
 
 export async function ask(question: string): Promise<Answer> {

@@ -14,6 +14,7 @@ from pathlib import Path
 import anthropic
 from dotenv import load_dotenv
 
+from .chart import build_chart
 from .data import DEFAULT_DATA_PATH, build_taxonomy, data_lookup, format_taxonomy_prompt
 from .prompts import (
     ANSWER_SCHEMA,
@@ -22,6 +23,56 @@ from .prompts import (
     SYNTHESIZE_TOOL,
     SYSTEM_PROMPT,
 )
+
+
+_SAFE_STUB = {
+    "direct_answer": "I couldn't format an answer for that. Try asking about a PH WINS 2024 workforce topic — burnout, intent to leave, training needs, satisfaction, or demographics.",
+    "full_answer": "",
+    "synthesis": "",
+    "reasoning": "",
+    "chart_hint": None,
+    "is_in_scope": False,
+}
+
+
+def _extract_json_block(text: str) -> str:
+    """Peel a ```json … ``` fence if the model wrapped its answer in one."""
+    stripped = text.strip()
+    fence = "```json"
+    if fence in stripped:
+        after = stripped.split(fence, 1)[1]
+        end = after.find("```")
+        if end != -1:
+            return after[:end].strip()
+        return after.strip()
+    if stripped.startswith("```") and stripped.endswith("```"):
+        return stripped[3:-3].strip()
+    return stripped
+
+
+def parse_answer_json(text: str) -> dict:
+    """Parse the model's final text into the answer dict, or return a safe stub.
+
+    Handles the common failure mode of prose + fenced JSON. Never dumps raw text
+    into direct_answer / full_answer — that used to leak the whole JSON payload
+    into the UI when parsing failed.
+    """
+    for candidate in (text, _extract_json_block(text)):
+        try:
+            parsed = json.loads(candidate)
+        except (json.JSONDecodeError, ValueError):
+            continue
+        if not isinstance(parsed, dict):
+            continue
+        for key in ANSWER_SCHEMA["required"]:
+            if key == "chart_hint":
+                parsed.setdefault(key, None)
+            elif key == "is_in_scope":
+                parsed.setdefault(key, True)
+            else:
+                parsed.setdefault(key, "")
+        return parsed
+    return dict(_SAFE_STUB)
 
 
 def synthesize(
@@ -151,6 +202,8 @@ def ask(
             "synthesis": "",
             "reasoning": "",
             "sources": build_sources(tool_trace, taxonomy, data_path),
+            "chart": None,
+            "is_in_scope": True,
         }
 
     # Phase 2: one more turn constrained to the answer schema.
@@ -171,10 +224,14 @@ def ask(
         messages=messages,
     )
     text = "".join(b.text for b in final.content if b.type == "text").strip()
-    try:
-        parsed = json.loads(text)
-    except json.JSONDecodeError:
-        parsed = {"direct_answer": text, "full_answer": text, "synthesis": "", "reasoning": ""}
+    parsed = parse_answer_json(text)
 
     parsed["sources"] = build_sources(tool_trace, taxonomy, data_path)
+    parsed["chart"] = build_chart(
+        parsed.pop("chart_hint", None),
+        tool_trace,
+        survey_year=taxonomy["survey_year"],
+        source_file=str(data_path),
+        data_path=data_path,
+    )
     return parsed
