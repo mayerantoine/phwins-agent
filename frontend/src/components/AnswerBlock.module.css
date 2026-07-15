@@ -1,0 +1,28 @@
+.headline {
+  font-size: 1.05rem;
+  margin: 0.75rem 0 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+.headline :global(strong) { font-weight: 600; }
+.headline :global(em) { font-style: italic; }
+.info {
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+.copy {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding: 0 0.2rem;
+}
+.copy:hover { color: var(--accent); }
+.synthesis {
+  margin: 0 0 1rem;
+  color: var(--ink);
+}
+.synthesis :global(strong) { font-weight: 600; }
+.synthesis :global(em) { font-style: italic; }

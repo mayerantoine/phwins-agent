@@ -23,12 +23,29 @@ python -m phwins.setup_managed               # one-time provision
 python cli.py --managed "..."
 ```
 
-**Web UI:**
+**Web UI (dev — Vite dev server, hot reload):**
+
+Terminal 1 — API:
 ```bash
-uv run python web.py                         # local backend (default)
-uv run python web.py --managed               # Managed Agents backend
-uv run python web.py --managed --reload      # add auto-reload
-# then open http://localhost:8000
+uv run python web.py --reload                # local backend (default)
+uv run python web.py --managed --reload      # Managed Agents backend
+```
+
+Terminal 2 — frontend:
+```bash
+cd frontend
+npm install                                  # first time only
+npm run dev
+# open http://localhost:5173
+```
+
+Vite proxies `/ask` to `http://127.0.0.1:8000`, so both dev servers work together.
+
+**Web UI (prod — single server, static build):**
+```bash
+cd frontend && npm run build && cd ..
+uv run python web.py
+# open http://localhost:8000  (serves frontend/dist)
 ```
 
 The chosen backend appears in the FastAPI title and at `GET /backend`. You can also set it via env var for use with plain uvicorn:
@@ -47,7 +64,8 @@ The `phwins/` package is organized as a four-chapter walkthrough:
 | 3 | [`phwins/agent.py`](phwins/agent.py) | The local tool-use loop. Two phases: unconstrained tool-use, then one constrained call for the final JSON. |
 | 3b | [`phwins/managed.py`](phwins/managed.py) | Same behavior on the Managed Agents runtime. Diff against `agent.py` to see what changes (only the transport). |
 | 4a | [`cli.py`](cli.py) | Thin CLI wrapper. `--managed` picks the backend. |
-| 4b | [`web.py`](web.py) | Single-file FastAPI + vanilla-JS UI. Reuses `phwins.ask()` directly. |
+| 4b | [`web.py`](web.py) | FastAPI JSON API. Reuses `phwins.ask()` directly and serves `frontend/dist` in prod. |
+| 4c | [`frontend/`](frontend) | React + Vite + TypeScript UI. See `frontend/src/App.tsx` for the component tree. |
 
 ## Data
 
@@ -65,4 +83,5 @@ Each estimate carries `value_pct`, `lci`/`uci` (95% CI), `subpopulation`, and a 
 
 - Python 3.12, uv
 - `anthropic>=0.116.0`, `python-dotenv`, `fastapi`, `uvicorn`
+- Frontend: React 18, TypeScript, Vite, CSS Modules (no CSS framework)
 - Model: `claude-opus-4-7` with adaptive thinking and prompt caching on the taxonomy

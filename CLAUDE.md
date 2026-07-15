@@ -38,10 +38,11 @@ Package `phwins/` is a four-chapter walkthrough:
 
 Entry points:
 - `cli.py` — one-shot / REPL CLI. `--managed` switches to the cloud backend.
-- `web.py` — single-file FastAPI app + vanilla-JS UI. Run with `uvicorn web:app --reload`.
+- `web.py` — FastAPI JSON API (`POST /ask`, `GET /backend`). In prod it also serves `frontend/dist` as static files at `/`.
+- `frontend/` — React + Vite + TypeScript SPA. Dev: `cd frontend && npm run dev` (proxies `/ask` to `http://127.0.0.1:8000`). Prod: `npm run build`, then `frontend/dist` is served by `web.py`. Component tree entry: `frontend/src/App.tsx`. Typed API contract: `frontend/src/api.ts`. Pure helpers (`markdown.ts`, `parse.ts`) are 1:1 ports of the old inline JS.
 
 Model: `claude-opus-4-7` with adaptive thinking and prompt caching on the taxonomy. Tools: `data_lookup` (local JSON) and `synthesize` (second model call for narrative paragraphs on 3+ finding questions).
 
 ## Stack
 
-Python 3.12, uv. Dependencies: `anthropic>=0.116.0`, `python-dotenv`, `fastapi`, `uvicorn`. Requires `ANTHROPIC_API_KEY` in `.env`.
+Python 3.12, uv. Backend deps: `anthropic>=0.116.0`, `python-dotenv`, `fastapi`, `uvicorn`. Frontend: React 18, TypeScript, Vite, CSS Modules. Requires `ANTHROPIC_API_KEY` in `.env`.

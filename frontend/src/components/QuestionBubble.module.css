@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 0;
+}
+.bubble {
+  background: var(--bubble);
+  border-radius: 18px;
+  padding: 0.55rem 1rem;
+  max-width: 70%;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+}

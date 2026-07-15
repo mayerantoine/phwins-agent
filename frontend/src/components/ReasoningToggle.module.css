@@ -1,0 +1,23 @@
+.actions {
+  margin-top: 1rem;
+}
+.btn {
+  padding: 0.55rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+}
+.block {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  background: white;
+  border: 1px solid var(--card-border);
+  border-radius: 10px;
+  white-space: pre-wrap;
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.82rem;
+  color: var(--ink);
+}
