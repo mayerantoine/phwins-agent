@@ -28,11 +28,20 @@ Survey scope is **national, 2024**. Filters (agency type, tenure, age, etc.) liv
 
 ## Architecture
 
-- `main.py` — `ask()` function: two-phase Claude loop (tool-use → structured JSON output via `ANSWER_SCHEMA`)
-- `cli.py` — one-shot and REPL CLI
-- Model: `claude-opus-4-7` with adaptive thinking and prompt caching on the taxonomy
-- Tools: `data_lookup` (local JSON) and `synthesize` (second model call for narrative paragraphs on 3+ finding questions)
+Package `phwins/` is a four-chapter walkthrough:
+- `phwins/data.py` — `data_lookup()` + `build_taxonomy()`. The grounded tool.
+- `phwins/prompts.py` — `SYSTEM_PROMPT`, `ANSWER_SCHEMA`, tool schemas.
+- `phwins/agent.py` — `ask()`: two-phase local tool-use loop (unconstrained → structured JSON via `ANSWER_SCHEMA`).
+- `phwins/managed.py` — `ask_managed()`: same behavior on the Managed Agents runtime.
+- `phwins/setup_managed.py` — one-time agent + environment provisioning.
+- `phwins/formatting.py` — shared answer formatter (used by CLI and web).
+
+Entry points:
+- `cli.py` — one-shot / REPL CLI. `--managed` switches to the cloud backend.
+- `web.py` — single-file FastAPI app + vanilla-JS UI. Run with `uvicorn web:app --reload`.
+
+Model: `claude-opus-4-7` with adaptive thinking and prompt caching on the taxonomy. Tools: `data_lookup` (local JSON) and `synthesize` (second model call for narrative paragraphs on 3+ finding questions).
 
 ## Stack
 
-Python 3.12, uv. Dependencies: `anthropic>=0.116.0`, `python-dotenv`. Requires `ANTHROPIC_API_KEY` in `.env`.
+Python 3.12, uv. Dependencies: `anthropic>=0.116.0`, `python-dotenv`, `fastapi`, `uvicorn`. Requires `ANTHROPIC_API_KEY` in `.env`.
